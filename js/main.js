@@ -1,5 +1,8 @@
 const three = new Threestrap.Bootstrap();
 
+// To use tfjs, directly call tf.<method>()
+console.log( tf.sequential() );
+
 const cube = new THREE.Mesh(new THREE.BoxGeometry(1, 1, 1), new THREE.MeshBasicMaterial({ color: 0xff3333 }));
 
 three.scene.add(cube);
